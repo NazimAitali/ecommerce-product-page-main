@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+    <div class="Lightbox-displayer">
+      <div class="Lightbox-content">
+        <div class="Lightbox-close"></div>
+        <div class="Lightbox">
+          <img src="./images/image-product-1.jpg" alt="product" />
+          <div class="To-left-lightbox">
+            <img src="./images/icon-next.svg" alt="next" />
+          </div>
+          <div class="To-right-lightbox">
+            <img src="./images/icon-previous.svg" alt="previous" />
+          </div>
+        </div>
+      </div>
+      <div class="Lightbox-select">
+        <ul class="Lightbox-list">
+          <li class="Thumbnails-lightbox Thumbnails-selected">
+            <img
+              src="./images/image-product-1-thumbnail.jpg"
+              alt="image-product-1"
+            />
+          </li>
+          <li class="Thumbnails-lightbox">
+            <img
+              src="./images/image-product-2-thumbnail.jpg"
+              alt="image-product-2"
+            />
+          </li>
+          <li class="Thumbnails-lightbox">
+            <img
+              src="./images/image-product-3-thumbnail.jpg"
+              alt="image-product-3"
+            />
+          </li>
+          <li class="Thumbnails-lightbox">
+            <img
+              src="./images/image-product-4-thumbnail.jpg"
+              alt="image-product-4"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="Top">
+      <div class="Barre-container">
+        <div class="Cart-content">
+          <div class="Cart-title">Cart</div>
+          <div class="Cart-purchase">
+            <div class="Cart-empty">Your cart is empty.</div>
+            <div class="Cart-purchase-global Cart-without-content">
+              <div class="Cart-purchase-content">
+                <div class="Product-purchase-image">
+                  <img
+                    src="./images/image-product-1-thumbnail.jpg"
+                    alt="product"
+                  />
+                </div>
+                <div class="Product-purchased-detail">
+                  <div class="Product-purchase-title">
+                    Fall Limited Edition Sneakers
+                  </div>
+                  <div class="Product-Purchase-price">
+                    <div class="Quantity-price">125.00</div>
+                    X&nbsp
+                    <div class="Quantity-purchased"></div>
+                    <div class="Total"></div>
+                  </div>
+                </div>
+                <div class="Product-Purchase-close">
+                  <img src="./images/icon-delete.svg" alt="close" />
+                </div>
+              </div>
+              <div class="Checkout-btn">
+                <div class="Checkout">Checkout</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Menu-mobile-container">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="Menu-mobile-side"></div>
+        <div class="Menu-mobile-overlay"></div>
+
+        <div class="Logo-container">
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
+        <div class="Menu-container">
+          <ul class="Menu">
+            <li class="Menu-items">Collections</li>
+            <li class="Menu-items">Men</li>
+            <li class="Menu-items">Women</li>
+            <li class="Menu-items">About</li>
+            <li class="Menu-items">Contact</li>
+          </ul>
+        </div>
+        <div class="Profil-container">
+          <div class="Profil-content">
+            <div class="Cart">
+              <img src="./images/icon-cart.svg" alt="cart" />
+              <div class="Badge"></div>
+            </div>
+            <div class="Profil">
+              <img src="./images/image-avatar.png" alt="profil" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Global">
+      <div class="Left-container">
+        <div class="Product-container">
+          <div class="Product-content">
+            <div class="Product-display">
+              <img src="./images/image-product-1.jpg" alt="product" />
+              <div class="To-left">
+                <img src="./images/icon-next.svg" alt="next" />
+              </div>
+              <div class="To-right">
+                <img src="./images/icon-previous.svg" alt="previous" />
+              </div>
+            </div>
+            <div class="Product-select">
+              <ul class="Product-list">
+                <li class="Thumbnails Thumbnails-selected">
+                  <img
+                    src="./images/image-product-1-thumbnail.jpg"
+                    alt="image-product-1"
+                  />
+                </li>
+                <li class="Thumbnails">
+                  <img
+                    src="./images/image-product-2-thumbnail.jpg"
+                    alt="image-product-2"
+                  />
+                </li>
+                <li class="Thumbnails">
+                  <img
+                    src="./images/image-product-3-thumbnail.jpg"
+                    alt="image-product-3"
+                  />
+                </li>
+                <li class="Thumbnails">
+                  <img
+                    src="./images/image-product-4-thumbnail.jpg"
+                    alt="image-product-4"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Right-container">
+        <div class="Detail-product">
+          <div class="Detail-content">
+            <div class="Detail-title-content">
+              <h3>SNEAKER COMPANY</h3>
+              <h1>Fall Limited Edition Sneakers</h1>
+            </div>
+            <div class="Detail-discription">
+              <p>
+                These low-profile sneakers are your perfetct casual weat
+                companion. Featuring a durable rubber outer sole, they'll
+                withstand everything the weather can offer.
+              </p>
+            </div>
+            <div class="Product-price">
+              <div class="Price-display">
+                <div class="Price">$125.00</div>
+                <div class="Percent">50%</div>
+              </div>
+              <div class="Old-price">$250.00</div>
+            </div>
+            <div class="Actions">
+              <div class="Btn">
+                <div class="Subtract">
+                  <img src="./images/icon-minus.svg" alt="minus" />
+                </div>
+                <input type="text" class="Quantity" readonly value="0" />
+                <div class="Add">
+                  <img src="./images/icon-plus.svg" alt="plus" />
+                </div>
+              </div>
+              <div class="Add-cart">
+                <div class="Cart">
+                  <img
+                    class="Cart-img"
+                    src="./images/icon-cart.png"
+                    alt="carte"
+                  />
+                  <p>Add to cart</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.linkedin.com/in/nazimaitali/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Ait Ali Nazim</a
+      >.
+    </div>
+    <script src="./script/index.js"></script>
+  </body>
+</html>

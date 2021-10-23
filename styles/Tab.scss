@@ -1,0 +1,111 @@
+@media (max-width: $Screen-Tab) {
+  body {
+    height: 900px;
+  }
+  .Barre-container {
+    width: 85%;
+    border-bottom: none;
+  }
+  .Top {
+    height: 7.5%;
+  }
+  .Global {
+    flex-direction: column;
+    height: 92.5%;
+  }
+  .Left-container {
+    @include dimension(100, 50);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Right-container {
+    @include dimension(100, 50);
+    justify-content: center;
+    align-items: center;
+  }
+  .Product-container {
+    @include dimension(100, 100);
+  }
+  .Product-content {
+    width: 80%;
+    height: 100%;
+  }
+  .Product-display {
+    height: 100%;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    cursor: none;
+  }
+
+  .Detail-product {
+    @include dimension(80, 100);
+    align-items: flex-start;
+  }
+
+  .Detail-content {
+    @include dimension(80, 100);
+    align-items: center;
+  }
+  .Detail-title-content {
+    justify-content: center;
+    align-items: center;
+  }
+  .Detail-title-content h3 {
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .Detail-title-content h1 {
+    height: 45%;
+    justify-content: center;
+  }
+  .Detail-discription p {
+    @include size(0.15, "desktop");
+  }
+  .Price-display {
+    width: 100%;
+  }
+  .Percent {
+    width: 9%;
+  }
+  .To-left,
+  .To-right {
+    @include dimensionPx(40, 40);
+    top: 32%;
+    right: 9%;
+    @include radius(50px);
+    @include flex(flex, center, center, row);
+    background-color: $White;
+    position: absolute;
+  }
+  .To-right {
+    left: 9%;
+  }
+
+  .To-left img,
+  .To-right img {
+    width: 20%;
+    object-fit: none;
+  }
+  .Menu-items {
+    font-size: 1.2vmax;
+  }
+  .Add-cart {
+    height: 65%;
+  }
+  .Actions {
+    padding: 0%;
+  }
+  .Btn {
+    height: 65%;
+  }
+  .attribution {
+    bottom: 1%;
+  }
+
+  .Product-select {
+    display: none;
+  }
+}

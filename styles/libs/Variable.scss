@@ -1,0 +1,28 @@
+$Orange: hsl(26, 100%, 55%);
+$Pale-orange: hsl(25, 100%, 94%);
+$Very-vark-blue: hsl(220, 13%, 13%);
+$Dark-grayish-blue: hsl(219, 9%, 45%);
+$Grayish-blue: hsl(220, 14%, 75%);
+$Light-grayish-blue: hsl(223, 64%, 98%);
+$White: hsl(0, 0%, 100%);
+$Black: hsl(0, 0%, 12%);
+
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+$Kumbh: "Kumbh Sans", sans-serif;
+
+$XSmall-Font: calc(0.08 * 10vmax);
+$Small-Font: calc(0.1 * 10vmax);
+$Small-Intermediate-Font: calc(0.12 * 10vmax);
+$Very-Medium-Font: calc(0.17 * 10vmax);
+$Medium-Font: calc(0.2 * 10vmax);
+$Medium-Intermediate-Font: calc(0.25 * 10vmax);
+$Large-Font: calc(0.3 * 10vmax);
+$XSmall-Font-Mobile: calc(0.3 * 10vmin);
+$Small-Font-Mobile: calc(0.4 * 10vmin);
+$Medium-Font-Mobile: calc(0.5 * 10vmin);
+$Large-Font-Mobile: calc(0.6 * 10vmin);
+$Large-Intermediate-Font-Mobile: calc(0.7 * 10vmin);
+$XLarge-Font-Mobile: calc(0.8 * 10vmin);
+$Screen-Mobile: 480px;
+$Screen-Tab: 900px;
+$Screen-Desktop: 1440px;
